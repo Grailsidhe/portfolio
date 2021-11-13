@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+.Admin-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 130px auto 78px auto;
+    padding: 10px;
+    color: #a55a94;
+}
+
+.Admin-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.Admin-title, .AdminLogin-title {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 28px;
+    margin: 5px auto 30px auto;
+    color: #81277a;
+}
+
+.AdminLogin-title {
+    margin: auto auto 20px auto;
+}
+
+.Admin-button {
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px  #a55a94;
+    background-color: #D7FAFF;
+    box-shadow: 4px 4px 1px #EABEE0;
+    cursor: pointer;
+}
+
+.Admin-button:hover {
+    background-color: #eabee085;
+    transition: all 0.20s;
+}
+
+.Admin-button:active {
+    box-shadow: 1px 1px 1px #EABEE0;
+}
+
+.Admin-input, .Admin-select {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px  #a55a94;
+    background-color: #EABEE0;
+    color: #a55a94;
+}
+
+.Admin-textarea {
+    width: 442px;
+    height: 50px;
+}
+
+.Admin-input-long {
+    width: 442px;
+}
+
+.Admin-select {
+    width: 222px;
+}
+
+.Admin-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Admin-submit {
+    font-size: 14px;
+}
+
+.AdminLogin-page {
+    background-color: #b5e1e7;
+}
+
+.AdminLogin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 30px;
+    padding: 10px;
+    color: #a55a94;
+}
+
+.AdminLogin-enter {
+    transition: transform 1s ease-in;
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px){
+
+    .Admin-wrapper {
+        margin: 70px auto auto auto;
+    }
+
+    .Admin-button-wrapper {
+        justify-content: center;
+        margin: 0;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .Admin-title {
+        font-size: 5vw;
+    }
+    
+    .Admin-textarea {
+        width: 200px;
+    }
+    
+    .Admin-input-long {
+        width: 200px;
+    }
+    
+    .Admin-section {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
