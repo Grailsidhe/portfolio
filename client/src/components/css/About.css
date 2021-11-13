@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+.About-wrapper {
+    background: #D7FAFF;
+    width: 70%;
+    min-height: 400px;
+    padding: 30px;
+    margin: auto;
+    transition: transform 0.6s ease-in-out;
+}
+
+.About-border {
+    border: solid 1px  #a55a94;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; 
+    min-height: 400px;
+}
+
+.About-photo {
+    padding: 40px;
+}
+
+.About-photo img, .About-photo picture {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+}
+
+.About-text {
+    padding: 30px;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+
+    .About-wrapper {
+        margin: 90px auto auto auto;
+    }
+
+    .About-border {
+        flex-direction: column;
+        padding: 0;
+        margin: auto;
+    }
+    
+    .About-photo {
+        padding-bottom: 20px !important;
+    }
+    
+    .About-text {
+        padding: 20px;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+}
