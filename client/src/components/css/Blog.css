@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
 
 .Blog-wrapper {
     display: flex;
@@ -8,12 +9,81 @@
     margin: auto;
     font-family: 'Bungee Shade', cursive;
     transition: transform 0.6s ease-in-out;
+    width: 80%;
+    margin: 100px auto auto auto;
 }
 
 .Blog-post {
     border: solid 1px #81277a;
     padding: 30px;
     margin: 10px;
+}
+
+.BlogPost-wrapper {
+    width: 100%;
+}
+
+.BlogPost-post {
+    margin: 20px;
+    font-family: 'Chivo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.BlogPost-title-wrap {
+    background: rgba(234, 190, 224, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.BlogPost-title  {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.BlogPost-date  {
+    font-size: 0.8rem;
+}
+
+.BlogPost-body-wrap {
+    background: #D7FAFF;
+    box-shadow: 6px 6px 1px #EABEE0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 10px;
+}
+
+.BlogPost-picture img  {
+    font-size: 0.7rem;
+    height: auto;
+    width: 150px;
+}
+
+.BlogPost-text {
+    text-align: left;
+    font-size: 1.1rem;
+    margin: 0 10px 0 0;
+}
+
+.BlogPost-keyword-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 5px 5px 11px;
+}
+
+.BlogPost-keyword {
+    margin: 0 5px 0 0;
+    padding: 5px;
+    background: #D7FAFF;
+    font-size: 0.8rem;
 }
 
 @media screen and (min-width: 300px) and (max-width: 650px){
