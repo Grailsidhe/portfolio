@@ -18,7 +18,7 @@ export default function Blog() {
     
     return (
         <div className="Blog-wrapper">
-            Blog
+            Blog Blog
             {data1 && data1.map((item, i)=> {
                 <BlogPost 
                     key={i}
